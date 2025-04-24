@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../reset.css">
+    <title>Leaf&Latte Review</title>
+  </head>
+
+  <body class="review">
+
+    <header id="header3">
+      <h1>Leaf&Latte</h1>
+      <h2>&mdash; review &mdash;</h2>  
+    </header>
+    
+    <fieldset class="wrap">
+      <legend>Thank you for visiting!</legend>
+      <a href="index.html" id="back">Back Home</a>
+      
+      <form action="#">
+        <label>How was your experience?</label>
+        <section class="rating">
+          
+          <input type="number" name="betyg" hidden>
+          <button type="button" class="star">&#9734;</button>
+          <button type="button" class="star">&#9734;</button>
+          <button type="button" class="star">&#9734;</button>
+          <button type="button" class="star">&#9734;</button>
+          <button type="button" class="star">&#9734;</button>
+          <h3 class="score">0/5</h3>
+        </section>
+        
+        <textarea id='comment' name="kommentar" cols="30" rows="5" placeholder="Your comment..."></textarea>
+
+        <div class="btns">
+        <button type="submit" class="btn submit">Send</button>
+        <button class="btn cancel">Cancel</button>
+        </div>
+      </form>
+      
+    </fieldset>
+    <script src="rev.js"></script>
+  </body>
+
+</html>
