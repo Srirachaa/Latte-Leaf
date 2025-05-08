@@ -14,7 +14,7 @@ allstars.forEach((star,i)=>{
       }else { 
         star.innerHTML ='&#9734;';
       }
-    });
+    }); 
     console.log(`Clicked star: ${current_star}`);
   };
 });
